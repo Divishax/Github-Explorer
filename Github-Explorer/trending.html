@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="container trending__container">
+        <ul class="nav">
+            <li>
+                <a class='nav-btn' href="/index.html">Home</a>
+            </li>
+            <li>
+                <a class='nav-btn' href="/battle.html">Battle</a>
+            </li>
+            <li>
+                <a class='nav-btn' href="/popular.html">Popular</a>
+            </li>
+            <li>
+                <a class='nav-btn' href="/search.html">Search</a>
+            </li>
+            <li>
+                <a class='nav-btn' href="/trending.html">Trending</a>
+            </li>
+        </ul>
+        <!-- <div class="top"> -->
+        <div class="main-container">
+            <div class="div__left">
+                <div class="categories-container">
+                    <ul class="categories">
+                        <li><a class="nav-link-trenading btn-repo nav-link active">Repositories</a></li>
+                        <li><a class="nav-link-trenading btn-dev nav-link">Developers</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="div__right">
+                <div class="selectMenu-container">
+                    <div class="select-box languages">
+                        <div class="options-container lan-opt-container">
+                            <div class="option opt-lan">
+
+                                <label class='label' for="go">Go</label>
+                            </div>
+
+                            <div class="option opt-lan">
+
+                                <label class='label' for="html">HTML</label>
+                            </div>
+
+                            <div class="option opt-lan">
+
+                                <label class='label' for="javascript">JavaScript</label>
+                            </div>
+
+                            <div class="option opt-lan">
+
+                                <label for="python">Python</label>
+                            </div>
+
+                            <div class="option opt-lan">
+
+                                <label for="ruby">Ruby</label>
+                            </div>
+
+                            <div class="option opt-lan">
+
+                                <label for="typeScript">TypeScript</label>
+                            </div>
+
+                            <div class="option opt-lan">
+
+                                <label for="vue">Vue</label>
+                            </div>
+
+                            <div class="option opt-lan">
+
+                                <label for="julia">Julia</label>
+                            </div>
+
+                            <div class="option opt-lan">
+
+                                <label for="java">Java</label>
+                            </div>
+                            <div class="option opt-lan">
+
+                                <label for="cpp">CPP</label>
+                            </div>
+                            <div class="option opt-lan">
+
+                                <label for="c">C</label>
+                            </div>
+                            <div class="option opt-lan">
+
+                                <label for="php">PHP</label>
+                            </div>
+                            <div class="option opt-lan">
+
+                                <label for="assembly">Assembly</label>
+                            </div>
+                        </div>
+
+                        <div class="selected selected-language filter-button">
+                            All languages
+                        </div>
+                    </div>
+
+
+                    <div class="select-box duration">
+                        <div class="options-container dur-opt-container">
+                            <div class="option opt-duration">
+
+                                <label class='label' for="automobiles">Today</label>
+                            </div>
+
+                            <div class="option opt-duration">
+
+                                <label class='label' for="film">This Week</label>
+                            </div>
+
+                            <div class="option opt-duration">
+
+                                <label class='label' for="science">This Month</label>
+                            </div>
+                        </div>
+
+                        <div class="selected selected-duration filter-button">
+                            Today
+                        </div>
+                    </div>
+
+                    <div class="grid__type">
+                        <div class='filter-button displayType-button'>
+                            <button style='align-items: center' class='grid__btn'>
+                                <img src=' ./img/grid.png' width="15px" height="15px" />
+                                <span>Grid</span>
+                            </button>
+                            <button style='align-items: center' class='list__btn fade'>
+                                <img src='./img/list7.png' height="20px" />
+                                <span style='margin-left:2px'>List</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- <div class="list__type">
+                        <duv class='filter-button'>
+                            <img src='./img/list.png' width="15px" height="15px">
+                            <span>Grid</span>
+                        </duv>
+                    </div> -->
+                </div>
+
+                <!-- <div class="displayType-container">
+                    
+                </div> -->
+
+
+            </div>
+        </div>
+
+        <!-- </div> -->
+        <div class="loader-container"></div>
+        <ul class="grid popular-grid trending-grid">
+            <!-- <div class="repoCard">
+                <div class="repoCard__header">
+                    <div class="repoCard__logo">
+                        <img src="./img/fb.png" width='20px' height='20px' alt="">
+                    </div>
+                    <div class="repoCard__content">
+                        <h5>facebookexperimental</h5>
+                    </div>
+                </div>
+                <div class="repoCard__main">
+                    <div class="repoCard__name">Recoil</div>
+                    <div class="repoCard__about">
+                        <div class="repoCard__about--language">
+                            JavaScript
+                        </div>
+                        <div class="repoCard__about--developers">
+                            <span class="repoCard__about--text">Built by</span>
+                            <span class="repoCard__about--images">
+                                <a class='repocard__about--developer1' href="#">
+                                    <img src="./img/vjeux.png" alt="">
+                                </a>
+                                <a class='repocard__about--developer2' href="#">
+                                    <img src="./img/csan.jfif" alt="">
+                                </a>
+                                <a class='repocard__about--developer3' href="#">
+                                    <img src="./img/david.png" alt="">
+                                </a>
+                                <a class='repocard__about--developer4' href="#">
+                                    <img src="./img/jacques-blom.jfif" alt="">
+                                </a>
+
+                            </span>
+                        </div>
+                    </div>
+                    <div class="repoCard__description">
+                        <p>Recoil is an experimental state management library for React apps. It provides several
+                            capabilities that are difficult
+                            to achieve with React</p>
+                    </div>
+                    <div class="repoCard__ratings">
+                        <a href="" class="repoCard__ratings--stars">
+                            <span class="followers-text small"><img class='color-star'
+                                    src='./img/starfilled.png'></span>
+                        </a>
+                        <a href="" class="repoCard__ratings--forks">
+                            <span class="forked-text small"><img class='color-forked' src='./img/forked.svg'></span>
+                        </a>
+                        <a href="" class="repoCard__ratings--starsRecent">
+                            <span class="stars-text small"><img class='color-issues' src='./img/alert.svg' </span>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+        </ul>
+    </div>
+    <div class="navigation">
+
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/loader.js"></script>
+    <script src="./js/trending.js"></script>
+</body>
+
+</html>
