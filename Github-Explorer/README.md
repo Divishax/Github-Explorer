@@ -1,7 +1,7 @@
 <h1 align="center">
-  	<img height="100" src="./img/githubnew.svg" alt="GithubSquare Logo" /> 
+  	<img height="100" src="./img/githubnew.svg" alt="GithubExplorer Logo" /> 
    <br>
-  GithubSquare
+  GithubExplorer
 </h1>
 
 <p align="center">
@@ -12,7 +12,7 @@
 </p>
 
 <p align='center'>
-  :fire: <b>GithubSquare</b> is a Vanilla JavaScript App that pulls data from Github API and let's you explore the most starred projects , trending developers , popular repositories of any date and let's you face off Github Profiles of your choice. :fire:
+  :fire: <b>GithubExplorer</b> is a Vanilla JavaScript App that pulls data from Github API and let's you explore the most starred projects , trending developers , popular repositories of any date and let's you face off Github Profiles of your choice. :fire:
 </p>
 
 <p align='center'>
@@ -52,19 +52,8 @@
   <sub>💥 Search your favourite profiles 💥</sub>
  </p>
  
- 
- ## Contributions
-
-* Spread the word
-* Open pull requests
-
-## Supporting GithubSquare
-If you like GithubSquare, you can give a star ⭐ on [GitHub](https://github.com/aakashsr/GithubSquare), or help spread GithubSquare to more people you know.
-
 
 ## Thanks
 
 * GithubSquare is using [huchenme/github-trending-api](https://github.com/huchenme/github-trending-api)
 
-## License
-MIT © [Aakash Srivastav](https://aakashdev.me)
